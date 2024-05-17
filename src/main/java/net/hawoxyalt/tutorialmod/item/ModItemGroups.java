@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        entries.add(ModItems.TOMATO);
+
                         entries.add(Items.DIAMOND);
 
                         entries.add(ModBlocks.RUBY_BLOCK);

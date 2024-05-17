@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+    "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:ruby"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:ruby_block"
+  }
+}
