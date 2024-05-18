@@ -1,8 +1,8 @@
 package net.hawoxyalt.tutorialmod;
 
-import com.sun.jna.platform.win32.NTSecApi;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.hawoxyalt.tutorialmod.block.ModBlocks;
 import net.hawoxyalt.tutorialmod.item.ModItemGroups;
 import net.hawoxyalt.tutorialmod.item.ModItems;
@@ -19,5 +19,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
