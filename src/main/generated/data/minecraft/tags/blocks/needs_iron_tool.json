@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:ruby_block",
+    "tutorialmod:raw_ruby_block",
+    "tutorialmod:sound_block",
+    "tutorialmod:ruby_ore",
+    "tutorialmod:nether_ruby_ore"
+  ]
+}
